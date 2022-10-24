@@ -1,12 +1,12 @@
 create table user (
 	id int auto_increment primary key,
 	uname varchar(256),
-	username varchar(256),
+	usurname varchar(256),
 	role_id int
 );
 
 create table login (
-	id int primary key,
+	id int auto_increment primary key,
 	login varchar(256),
 	password varchar(256),
 	user_id int

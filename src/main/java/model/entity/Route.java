@@ -11,9 +11,9 @@ public class Route {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     @OneToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "departure")
     City departure;
     @OneToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "arrival")
     City arrival;
 }

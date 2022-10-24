@@ -14,6 +14,7 @@ public class Airplane {
     @ManyToOne
     @JoinColumn(name = "airCompany_id")
     AirCompany airCompany;
+
     public String toString() {return "";}
 
 }

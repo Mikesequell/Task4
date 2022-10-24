@@ -14,4 +14,8 @@ public class City {
     @JoinColumn(name = "country_id")
     Country countryId;
 
+    @Override
+    public String toString() {
+        return "";
+    }
 }
